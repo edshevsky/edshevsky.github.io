@@ -5,70 +5,70 @@
     <title>Forms</title>
 </head>
 <body>
-<form>
-    <p>Name:</p>
-        <input type="text" name="name">
+    <form>
+        <label>Name:<br>
+            <input type="text" name="name"></label><br>
+
+        <label>Email:<br>
+            <input type="email" name="email"></label>
+
+        <p>Sex:</p>
+            <input type="radio" name="sex" value="male" checked>Male
+            <input type="radio" name="sex" value="female">Female
+
+        <p>Current status:</p>
+            <input type="checkbox" name="status" value="Student">Student
+            <input type="checkbox" name="status" value="Employed">Employed
+            <input type="checkbox" name="status" value="Unemployed">Unemployed
     
-    <p>Email:</p>
-        <input type="email" name="email">
+        <p>Month and Year of birth:</p>
+            <select name="Month">
+                <option value="month">Січень</option>
+                <option value="month">Лютий</option>
+                <option value="month">Березень</option>
+                <option value="month">Квітень</option>
+                <option value="month">Травень</option>
+                <option value="month">Червень</option>
+                <option value="month">Липень</option>
+                <option value="month">Серпень</option>
+                <option value="month">Вересень</option>
+                <option value="month">Жовтень</option>
+                <option value="month">Листопад</option>
+                <option value="month">Грудень</option>
+            </select>
+            <select name="Year">
+                <option value="year">1980</option>
+                <option value="year">1981</option>
+                <option value="year">1982</option>
+                <option value="year">1983</option>
+                <option value="year">1984</option>
+                <option value="year">1985</option>
+            </select>
 
-    <p>Sex:</p>
-        <input type="radio" name="sex" value="male" checked>Male
-        <input type="radio" name="sex" value="female">Female
-
-    <p>Current status:</p>
-        <input type="checkbox" name="status" value="Student">Student
-        <input type="checkbox" name="status" value="Employed">Employed
-        <input type="checkbox" name="status" value="Unemployed">Unemployed
-    
-    <p>Month and Year of birth:</p>
-        <select name="Month">
-            <option value="month">Січень</option>
-            <option value="month">Лютий</option>
-            <option value="month">Березень</option>
-            <option value="month">Квітень</option>
-            <option value="month">Травень</option>
-            <option value="month">Червень</option>
-            <option value="month">Липень</option>
-            <option value="month">Серпень</option>
-            <option value="month">Вересень</option>
-            <option value="month">Жовтень</option>
-            <option value="month">Листопад</option>
-            <option value="month">Грудень</option>
-        </select>
-        <select name="Year">
-            <option value="year">1980</option>
-            <option value="year">1981</option>
-            <option value="year">1982</option>
-            <option value="year">1983</option>
-            <option value="year">1984</option>
-            <option value="year">1985</option>
-        </select>
-
-    <p>Skills and Technologies</p>
-        <select multiple size="10">
-            <optgroup label="Tech Skills">
-                <option value="HTML">HTML</option>
-                <option value="CSS">CSS</option>
-                <option value="JavaScript">JavaScript</option>
-                <option value="git">git</option>
-            </optgroup>
-            <optgroup label="Soft Skills">
-                <option value="time">Time Management</option>
-                <option value="proactivity">Proactivity</option>
-            </optgroup>
-    </select>
+        <p>Skills and Technologies</p>
+            <select multiple size="10">
+                <optgroup label="Tech Skills">
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="git">git</option>
+                </optgroup>
+                <optgroup label="Soft Skills">
+                    <option value="time">Time Management</option>
+                    <option value="proactivity">Proactivity</option>
+                </optgroup>
+            </select>
     
         <p><input type="button" name="send" value="Вибрати"></p>
 
-    <form enctype="multipart/form-data" action="upload.php" method="post">
-    <p>Photo:</p>
+        <form enctype="multipart/form-data" action="upload.php" method="post">
+        <p>Photo:</p>
         <input name="my_file" type="file">
     
-    <p>Comments:</p>
+        <p>Comments:</p>
         <textarea name="txtArea" cols="12" rows="15" name="mytext"></textarea><br>
         <input type="button" name="send" value="Прокоментувати">
 
-</form>
+    </form>
 </body>
 </html>
