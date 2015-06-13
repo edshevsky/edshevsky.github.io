@@ -4,6 +4,10 @@ h1 {
     font-size: 30px;
 }
 
+body {
+    margin: 0px 1300px 0px 0px;
+}
+
 p:first-letter {
     font-size: 30px;
     color: red;    

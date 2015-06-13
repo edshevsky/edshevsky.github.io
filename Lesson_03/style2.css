@@ -1,0 +1,8 @@
+header + p {
+    font-size: 40px;
+}
+
+p:last-child {
+    background-color: #999;
+}
+
