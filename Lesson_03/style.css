@@ -1,8 +1,12 @@
 h1 {
-    text-align: right;
     color: orange;
+    text-align: right;
     font-size: 30px;
-    font-weight: bold;
+}
+
+p:first-letter {
+    font-size: 30px;
+    color: red;    
 }
 
 em {
@@ -11,10 +15,33 @@ em {
     font-weight: bold;
 }
 
-p:first-letter {
-    color: red; font-size: 30px;
+#allotment ol.fruits-list {
+    color: #666;
+    font-weight: normal;
 }
 
-h2 {
+ol.vegetables-list {
+    color: red;
+    font-weight: normal;
+}
 
+#warehouse ol.fruits-list {
+    color: green;
+    font-weight: normal;
+}
+
+#allotment h2 {
+    color: orange;
+}
+
+#warehouse h2 {
+    color: blue;
+}
+
+#allotment ul {
+    font-weight: bold;
+}
+
+#warehouse ul {
+    font-weight: bold;
 }
