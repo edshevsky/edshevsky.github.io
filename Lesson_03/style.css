@@ -45,3 +45,20 @@ ol.vegetables-list {
 #warehouse ul {
     font-weight: bold;
 }
+
+thead {
+    text-align: center;
+    font-weight: bold;
+}
+
+tbody {
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+tbody td:first-child {
+    background-color: white;
+    color: orange;
+    text-align: left;
+}
