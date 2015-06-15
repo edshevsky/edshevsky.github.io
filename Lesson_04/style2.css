@@ -1,0 +1,47 @@
+#menu {
+    background: #a64dff;
+    width: 100%;
+    margin: 15px;
+}
+
+#menu a {
+    font-family: Impact, serif;
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+}
+
+#menu a:hover {
+    color: #a09da4;
+    background: #eeeeee;
+    box-shadow: 0 0 4px rgba(0,0,0,0.3);
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+}
+
+ul {
+    width: 900px;
+    text-align: center;
+}
+
+#more {
+    float: right;
+    margin: 5px;
+    padding-right: 820px;
+}
+
+#more a {
+    font-family: Impact, serif;
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+}
+
+#more a:hover {
+    color: #a09da4;
+    background: #eeeeee;
+    box-shadow: 0 0 4px rgba(0,0,0,0.3);
+}
