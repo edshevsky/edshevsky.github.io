@@ -1,3 +1,22 @@
+#more {
+    float: right;
+    margin: 5px;
+    padding-right: 820px;
+}
+
+#more a {
+    font-family: Impact, serif;
+    text-decoration: none;
+    color: #fffdfe;
+    padding: 6px;
+}
+
+#more a:hover {
+    color: #a09da4;
+    background: #eeeeee;
+    box-shadow: 0 0 4px rgba(0,0,0,0.3);
+}
+
 #menu {
     background: #a64dff;
     width: 100%;
@@ -7,7 +26,7 @@
 #menu a {
     font-family: Impact, serif;
     text-decoration: none;
-    color: white;
+    color: #fffdfe;
     padding: 6px;
 }
 
@@ -27,21 +46,3 @@ ul {
     text-align: center;
 }
 
-#more {
-    float: right;
-    margin: 5px;
-    padding-right: 820px;
-}
-
-#more a {
-    font-family: Impact, serif;
-    text-decoration: none;
-    color: white;
-    padding: 6px;
-}
-
-#more a:hover {
-    color: #a09da4;
-    background: #eeeeee;
-    box-shadow: 0 0 4px rgba(0,0,0,0.3);
-}
