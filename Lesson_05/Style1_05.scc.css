@@ -1,0 +1,45 @@
+
+
+
+
+
+
+#menu {
+    background: #1aa4ff;
+    width: 100%;
+    position: relative;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+
+}
+
+#menu a {
+    font-family: Impact, sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+
+}
+
+#menu a:hover {
+    color: #a09da4;
+    background: #eeeeee;
+    box-shadow: 0 0 4px rgba(0,0,0,0.3);
+}
+
+#city {
+    background: #eeeeee;
+    width: 100%;
+    position: absolute;
+
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+}
+
+#city a {
+    font-family: sans-serif;
+    color: #a09da4;
+}
+
